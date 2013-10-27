@@ -21,6 +21,7 @@
 		626187BA1819CEBA0048B9E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6261879C1819CEB90048B9E8 /* UIKit.framework */; };
 		626187C21819CEBA0048B9E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 626187C01819CEBA0048B9E8 /* InfoPlist.strings */; };
 		626187C41819CEBA0048B9E8 /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 626187C31819CEBA0048B9E8 /* Man_s_Best_FriendTests.m */; };
+		62743622181CA66400C4E087 /* ADDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 62743621181CA66400C4E087 /* ADDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		626187BF1819CEBA0048B9E8 /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		626187C11819CEBA0048B9E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		626187C31819CEBA0048B9E8 /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		62743620181CA66400C4E087 /* ADDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDog.h; sourceTree = "<group>"; };
+		62743621181CA66400C4E087 /* ADDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				626187AA1819CEBA0048B9E8 /* Main.storyboard */,
 				626187AD1819CEBA0048B9E8 /* ADViewController.h */,
 				626187AE1819CEBA0048B9E8 /* ADViewController.m */,
+				62743620181CA66400C4E087 /* ADDog.h */,
+				62743621181CA66400C4E087 /* ADDog.m */,
 				626187B01819CEBA0048B9E8 /* Images.xcassets */,
 				6261879F1819CEB90048B9E8 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				626187A51819CEB90048B9E8 /* main.m in Sources */,
+				62743622181CA66400C4E087 /* ADDog.m in Sources */,
 				626187AF1819CEBA0048B9E8 /* ADViewController.m in Sources */,
 				626187A91819CEB90048B9E8 /* ADAppDelegate.m in Sources */,
 			);
@@ -461,6 +467,7 @@
 				626187C91819CEBA0048B9E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		626187CA1819CEBA0048B9E8 /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				626187CC1819CEBA0048B9E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
