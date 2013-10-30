@@ -10,4 +10,15 @@
 
 @interface ADDog : NSObject
 
+@property (nonatomic) int age;
+@property (nonatomic, strong) NSString *breed;
+@property (nonatomic, strong) UIImage *image;
+@property (nonatomic, strong) NSString *name;
+
+-(void)bark;
+-(void)barkANumberOfTimes:(int)numberOfTimes;
+-(void)changeBreedToWarewolf;
+-(void)barkANumberOfTimes:(int)numberOfTimes loudly:(BOOL)isLoud;
+-(int)ageInDogYearsFromAge:(int)regularAge;
+
 @end

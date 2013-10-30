@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D7AC614A-F3FE-408B-A30C-5D9B54EF2B6F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Man's Best Friend</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ACBF06CA-4A14-4095-BA6D-91A2E5C766A6</key>
+		<string>ssh://github.com/angeleah/cc_mans_best_friend.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Man's Best Friend.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ACBF06CA-4A14-4095-BA6D-91A2E5C766A6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/angeleah/cc_mans_best_friend.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ACBF06CA-4A14-4095-BA6D-91A2E5C766A6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ACBF06CA-4A14-4095-BA6D-91A2E5C766A6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Man's Best Friend</string>
+		</dict>
+	</array>
+</dict>
+</plist>

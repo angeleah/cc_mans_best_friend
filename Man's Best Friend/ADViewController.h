@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ADViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *myImageView;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *breedLabel;
 
 @end
