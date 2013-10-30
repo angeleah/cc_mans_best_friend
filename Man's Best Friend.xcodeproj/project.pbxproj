@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		62544D3A18218A170045E677 /* St.Bernard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62544D3918218A170045E677 /* St.Bernard.jpg */; };
+		62544D47182193420045E677 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62544D43182193420045E677 /* Bo.jpg */; };
+		62544D48182193420045E677 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62544D44182193420045E677 /* BorderCollie.jpg */; };
+		62544D49182193420045E677 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62544D45182193420045E677 /* ItalianGreyhound.jpg */; };
+		62544D4A182193420045E677 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62544D46182193420045E677 /* JRT.jpg */; };
 		626187991819CEB90048B9E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626187981819CEB90048B9E8 /* Foundation.framework */; };
 		6261879B1819CEB90048B9E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6261879A1819CEB90048B9E8 /* CoreGraphics.framework */; };
 		6261879D1819CEB90048B9E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6261879C1819CEB90048B9E8 /* UIKit.framework */; };
@@ -37,6 +41,10 @@
 
 /* Begin PBXFileReference section */
 		62544D3918218A170045E677 /* St.Bernard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.jpg; sourceTree = "<group>"; };
+		62544D43182193420045E677 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		62544D44182193420045E677 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		62544D45182193420045E677 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		62544D46182193420045E677 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
 		626187951819CEB90048B9E8 /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		626187981819CEB90048B9E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6261879A1819CEB90048B9E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,6 +141,10 @@
 		6261879F1819CEB90048B9E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				62544D43182193420045E677 /* Bo.jpg */,
+				62544D44182193420045E677 /* BorderCollie.jpg */,
+				62544D45182193420045E677 /* ItalianGreyhound.jpg */,
+				62544D46182193420045E677 /* JRT.jpg */,
 				62544D3918218A170045E677 /* St.Bernard.jpg */,
 				626187A01819CEB90048B9E8 /* Man's Best Friend-Info.plist */,
 				626187A11819CEB90048B9E8 /* InfoPlist.strings */,
@@ -237,10 +249,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62544D47182193420045E677 /* Bo.jpg in Resources */,
 				62544D3A18218A170045E677 /* St.Bernard.jpg in Resources */,
 				626187B11819CEBA0048B9E8 /* Images.xcassets in Resources */,
 				626187A31819CEB90048B9E8 /* InfoPlist.strings in Resources */,
 				626187AC1819CEBA0048B9E8 /* Main.storyboard in Resources */,
+				62544D48182193420045E677 /* BorderCollie.jpg in Resources */,
+				62544D4A182193420045E677 /* JRT.jpg in Resources */,
+				62544D49182193420045E677 /* ItalianGreyhound.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
