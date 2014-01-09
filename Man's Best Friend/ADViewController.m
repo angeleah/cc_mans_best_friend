@@ -8,6 +8,7 @@
 
 #import "ADViewController.h"
 #import "ADDog.h"
+#import "ADPuppy.h"
 
 
 @interface ADViewController ()
@@ -25,10 +26,6 @@
     myDog.breed = @"St.Bernard";
     myDog.age = 1;
     myDog.image = [UIImage imageNamed:@"St.Bernard.jpg"];
-    
-    self.myImageView.image = myDog.image;
-    self.nameLabel.text = myDog.name;
-    self.breedLabel.text = myDog.breed;
     
     ADDog *secondDog = [[ADDog alloc] init];
     secondDog.name = @"Wishbone";
@@ -51,9 +48,18 @@
     [self.myDogs addObject:thirdDog];
     [self.myDogs addObject:fourthDog];
     
-    NSLog(@"%@", self.myDogs);
+    ADPuppy *littlePuppy = [[ADPuppy alloc] init];
+    [littlePuppy bark];
+    littlePuppy.name = @"Bo O";
+    littlePuppy.breed = @"Portuguese Water Dog";
+    littlePuppy.image = [UIImage imageNamed:@"Bo.jpg"];
+    [self.myDogs addObject:littlePuppy];
     
-    
+        
+    self.myImageView.image = myDog.image;
+    self.nameLabel.text = myDog.name;
+    self.breedLabel.text = myDog.breed;
+    self.currentIndex = 0;
 }
 
 - (void)didReceiveMemoryWarning
@@ -65,7 +71,15 @@
 - (IBAction)newDogBarButtonItemPressed:(UIBarButtonItem *)sender {
     int numberOfDogs = [self.myDogs count];
     int randomIndex = arc4random() % numberOfDogs;
+    
+    if (self.currentIndex == randomIndex) {
+        randomIndex ++;
+    }
+    
+    
+    
     ADDog *randomDog = [self.myDogs objectAtIndex:randomIndex];
+    
     
 //    self.myImageView.image = randomDog.image;
 //    self.breedLabel.text = randomDog.breed;

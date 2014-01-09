@@ -12,6 +12,7 @@
 		62544D48182193420045E677 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62544D44182193420045E677 /* BorderCollie.jpg */; };
 		62544D49182193420045E677 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62544D45182193420045E677 /* ItalianGreyhound.jpg */; };
 		62544D4A182193420045E677 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62544D46182193420045E677 /* JRT.jpg */; };
+		62544D4D1821B9580045E677 /* ADPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62544D4C1821B9580045E677 /* ADPuppy.m */; };
 		626187991819CEB90048B9E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626187981819CEB90048B9E8 /* Foundation.framework */; };
 		6261879B1819CEB90048B9E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6261879A1819CEB90048B9E8 /* CoreGraphics.framework */; };
 		6261879D1819CEB90048B9E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6261879C1819CEB90048B9E8 /* UIKit.framework */; };
@@ -45,6 +46,8 @@
 		62544D44182193420045E677 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
 		62544D45182193420045E677 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
 		62544D46182193420045E677 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		62544D4B1821B9580045E677 /* ADPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPuppy.h; sourceTree = "<group>"; };
+		62544D4C1821B9580045E677 /* ADPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPuppy.m; sourceTree = "<group>"; };
 		626187951819CEB90048B9E8 /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		626187981819CEB90048B9E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6261879A1819CEB90048B9E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +135,8 @@
 				626187AE1819CEBA0048B9E8 /* ADViewController.m */,
 				62743620181CA66400C4E087 /* ADDog.h */,
 				62743621181CA66400C4E087 /* ADDog.m */,
+				62544D4B1821B9580045E677 /* ADPuppy.h */,
+				62544D4C1821B9580045E677 /* ADPuppy.m */,
 				626187B01819CEBA0048B9E8 /* Images.xcassets */,
 				6261879F1819CEB90048B9E8 /* Supporting Files */,
 			);
@@ -277,6 +282,7 @@
 			files = (
 				626187A51819CEB90048B9E8 /* main.m in Sources */,
 				62743622181CA66400C4E087 /* ADDog.m in Sources */,
+				62544D4D1821B9580045E677 /* ADPuppy.m in Sources */,
 				626187AF1819CEBA0048B9E8 /* ADViewController.m in Sources */,
 				626187A91819CEB90048B9E8 /* ADAppDelegate.m in Sources */,
 			);
