@@ -1,7 +1,5 @@
 cc_mans_best_friend
 ===================
-About
------
 This app was created as a follow along to a [Code Coalition](https://www.codecoalition.com/) iOs tutorial.  It allows you to request to view a new dog and randomly chooses a picture of a dog while displaying the breed and the dog's name.
 
 GETTING STARTED
